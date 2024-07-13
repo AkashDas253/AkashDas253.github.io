@@ -1,0 +1,29 @@
+[
+    {
+      "category": "Programming Languages",
+      "skills": [
+        { "name": "Python", "icon": "fab fa-python" },
+        { "name": "Java", "icon": "fab fa-java" },
+        { "name": "SQL", "icon": "fas fa-database" },
+        { "name": "C", "icon": "fas fa-c" }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "skills": [
+        { "name": "HTML", "icon": "fab fa-html5" },
+        { "name": "CSS", "icon": "fab fa-css3-alt" },
+        { "name": "JavaScript", "icon": "fab fa-js" }
+      ]
+    },
+    {
+      "category": "Concepts",
+      "skills": [
+        { "name": "Computer Networks", "icon": "fas fa-network-wired" },
+        { "name": "Data Structures", "icon": "fas fa-project-diagram" },
+        { "name": "Algorithms", "icon": "fas fa-code" },
+        { "name": "RDBMS", "icon": "fas fa-database" }
+      ]
+    }
+  ]
+  

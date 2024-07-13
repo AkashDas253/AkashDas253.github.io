@@ -1,0 +1,21 @@
+[
+    {
+      "degree": "Bachelor of Technology in Computer Science",
+      "institution": "University of Example",
+      "year": "2025",
+      "details": ["CGPA(till 5th Semester): 8.82", "Relevant coursework: Data Structures, Algorithms, Databases, Computer Networks, OOPS "]
+    },
+    {
+      "degree": "ISC",
+      "institution": "Orient Day School",
+      "year": "2021",
+      "details": ["Percentage: 92%", "Science Stream","Relevant coursework: Java Core, OOP"]
+    },
+    {
+      "degree": "ICSE",
+      "institution": "Orient Day School",
+      "year": "2019",
+      "details": ["Percentage: 87%","Relevant coursework: Java Core, OOP(Basic)"]
+    }
+  ]
+  
