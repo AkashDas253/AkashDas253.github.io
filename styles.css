@@ -65,11 +65,33 @@ a:hover {
     text-decoration: underline;
 }
 
-#skills-list span {
-    display: inline-block;
-    margin-right: 1rem;
+.skill-category {
+    margin-bottom: 1.5rem;
 }
 
-#skills-list i {
+.skill-category h3 {
+    margin-bottom: 0.5rem;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.skill-item i {
     margin-right: 0.5rem;
+}
+
+#skills-list {
+    margin-bottom: 2rem;
 }

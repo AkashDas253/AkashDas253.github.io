@@ -1,0 +1,55 @@
+[
+  {
+    "type": "Specialization",
+    "course_name": "Machine Learning Specialization",
+    "platform": "Coursera",
+    "date": "2023-11-11",
+    "link": "https://coursera.org/verify/specialization/4AHEMQNG4AZ6",
+    "topics": [
+      "Supervised Learning (Regression and Classification)",
+      "Advanced Learning Algorithms",
+      "Unsupervised Learning",
+      "Recommenders",
+      "Reinforcement Learning"
+    ]
+  },  
+  {
+    "type": "Specialization",
+    "course_name": "Object Oriented Programming in Java",
+    "platform": "Coursera",
+    "date": "2023-12-27",
+    "link": "https://coursera.org/verify/specialization/UWSR2ZMQXH4Y",
+    "topics": [
+      "Java Programming: Solving Problems with Software",
+      "Java Programming: Arrays, Lists, and Structured Data",
+      "Object Oriented Programming in Java",
+      "Data Structures and Performance"
+    ]
+  },  
+  {
+    "type": "Course",
+    "course_name": "Java Programming and Software Engineering Fundamentals",
+    "platform": "Coursera",
+    "date": "2022-11-30",
+    "link": "https://coursera.org/certificate/ABC456",
+    "topics": ["Java", "OOP", "Software Development"]
+  },
+  {
+    "type": "Course",
+    "course_name": "Introduction to Back-End Development",
+    "platform": "Coursera",
+    "date": "2023-08-19",
+    "link": "https://coursera.org/verify/69S9ADE26QBL",
+    "topics": [
+      "Back-End Development"
+    ]
+  },  
+  {
+    "type": "Course",
+    "course_name": "A Life of Happiness and Fulfillment",
+    "platform": "Coursera",
+    "date": "2022-05-04",
+    "link": "https://coursera.org/verify/GBLDAFMUBZKU",
+    "topics": ["Happiness", "Fulfillment"]
+  }
+]
