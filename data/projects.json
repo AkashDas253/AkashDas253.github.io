@@ -3,7 +3,7 @@
       "name": "ToDo App on Github",
       "description": "A web-based ToDo application to manage tasks that stores its data in Github using Octokit and allows authentication",
       "github_link": "https://github.com/AkashDas253/Todo_Github.git",
-      "live_link": "https://akashdas253.github.io/TalktoLearn/"
+      "live_link": "http://toosaddas.pythonanywhere.com/"
     },
     {
       "name": "TalktoLearn",
