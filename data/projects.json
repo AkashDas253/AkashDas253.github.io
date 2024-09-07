@@ -29,7 +29,7 @@
     },
     {
       "name": "Tic-Tac-Toe Game with AI Bots",
-      "description": "This web-based Tic-Tac-Toe game features various AI bots, including an Easy Bot, Minimax Bot, and Alpha-Beta Bot. The game allows for dynamic board sizes and different game modes, enabling players to compete against either a human opponent or one of the bots. The Minimax tree used by the bots is precomputed and stored in a JSON file, ensuring efficient and optimal move decisions. The project includes a user-friendly interface for selecting bots, setting game configurations, and playing the game. The project is available for review and contribution on GitHub at [GitHub Repository Link]. The game can be accessed live at [Live Link].",
+      "description": "This web-based Tic-Tac-Toe game features various AI bots, including an Easy Bot, Minimax Bot, and Alpha-Beta Bot. The game allows for dynamic board sizes and different game modes, enabling players to compete against either a human opponent or one of the bots. The Minimax tree used by the bots is precomputed and stored in a JSON file, ensuring efficient and optimal move decisions. The project includes a user-friendly interface for selecting bots, setting game configurations, and playing the game.",
       "github_link": "https://github.com/AkashDas253/tictactoe.git",
       "live_link": "https://akashdas253.github.io/TicTacToe/"
     }
