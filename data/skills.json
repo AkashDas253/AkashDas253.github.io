@@ -1,29 +1,37 @@
 [
-    {
-      "category": "Programming Languages",
-      "skills": [
-        { "name": "Python", "icon": "fab fa-python" },
-        { "name": "Java", "icon": "fab fa-java" },
-        { "name": "SQL", "icon": "fas fa-database" },
-        { "name": "C", "icon": "fas fa-c" }
-      ]
-    },
-    {
-      "category": "Web Development",
-      "skills": [
-        { "name": "HTML", "icon": "fab fa-html5" },
-        { "name": "CSS", "icon": "fab fa-css3-alt" },
-        { "name": "JavaScript", "icon": "fab fa-js" }
-      ]
-    },
-    {
-      "category": "Concepts",
-      "skills": [
-        { "name": "Computer Networks", "icon": "fas fa-network-wired" },
-        { "name": "Data Structures", "icon": "fas fa-project-diagram" },
-        { "name": "Algorithms", "icon": "fas fa-code" },
-        { "name": "RDBMS", "icon": "fas fa-database" }
-      ]
-    }
-  ]
-  
+  {
+    "category": "Programming Languages",
+    "skills": [
+      { "name": "Python", "icon": "python-logo.png" },
+      { "name": "Java", "icon": "java-logo.png" },
+      { "name": "SQL", "icon": "sql-logo.png" },
+      { "name": "C", "icon": "c-logo.png" }
+    ]
+  },
+  {
+    "category": "Web Development",
+    "skills": [
+      { "name": "HTML", "icon": "html-logo.png" },
+      { "name": "CSS", "icon": "css-logo.png" },
+      { "name": "JavaScript", "icon": "js-logo.png" },
+      { "name": "Django", "icon": "django-logo1.png" }
+    ]
+  },
+  {
+    "category": "Development Tools",
+    "skills": [
+      { "name": "VSCode", "icon": "vscode-logo.png" },
+      { "name": "Git", "icon": "git-logo.png" },
+      { "name": "GitHub", "icon": "github-logo.png" }
+    ]
+  },
+  {
+    "category": "Concepts",
+    "skills": [
+      { "name": "Computer Networks", "icon": "networks-logo.png" },
+      { "name": "Data Structures", "icon": "dsa-logo.png" },
+      { "name": "Algorithms", "icon": "algorithm-logo.png" },
+      { "name": "RDBMS", "icon": "dbms-logo.png" }
+    ]
+  }
+]

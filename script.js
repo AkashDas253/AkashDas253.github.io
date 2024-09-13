@@ -8,8 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("profile-linkedin").href = profile.linkedin;
             document.getElementById("profile-github").href = profile.github;
             document.getElementById("profile-email").href = `mailto:${profile.email}`;
-            document.getElementById("profile-email").textContent = profile.email;
+            //document.getElementById("profile-email").textContent = profile.email;
 
+            
             const hobbiesList = document.getElementById("hobbies-list");
             profile.hobbies.forEach(hobby => {
                 const listItem = document.createElement("li");
@@ -32,36 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a href="${certificate.link}" target="_blank" class="certificate-link">Verify Certificate</a>`;
                 certificatesList.appendChild(listItem);
             });
-
-            // Check if the new certificate is already present
-            const newCertificate = {
-                "type": "Course",
-                "course_name": "A Life of Happiness and Fulfillment",
-                "platform": "Coursera",
-                "date": "2022-05-04",
-                "link": "https://coursera.org/verify/GBLDAFMUBZKU",
-                "topics": ["Happiness", "Fulfillment"]
-            };
-
-            const isAlreadyAdded = certificates.some(certificate =>
-                certificate.course_name === newCertificate.course_name &&
-                certificate.type === newCertificate.type &&
-                certificate.platform === newCertificate.platform &&
-                certificate.date === newCertificate.date &&
-                certificate.link === newCertificate.link &&
-                certificate.topics.every(topic => newCertificate.topics.includes(topic))
-            );
-
-            if (!isAlreadyAdded) {
-                const newCertificateListItem = document.createElement("li");
-                newCertificateListItem.classList.add("certificate-item"); // Add a class for styling
-                newCertificateListItem.innerHTML = `
-                    <strong>${newCertificate.course_name}</strong><br>
-                    ${newCertificate.type} by ${newCertificate.platform} (${newCertificate.date})<br>
-                    Topics: ${newCertificate.topics.join(', ')}<br>
-                    <a href="${newCertificate.link}" target="_blank" class="certificate-link">Verify Certificate</a>`;
-                certificatesList.appendChild(newCertificateListItem);
-            }
         });
 
     fetch("data/projects.json")
@@ -88,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 categoryItem.innerHTML = `<h3>${skillCategory.category}</h3>`;
                 const skillItems = skillCategory.skills.map(skill => `
                     <div class="skill-item">
-                        <i class="${skill.icon}"></i>
+                        <img src="img/icons/${skill.icon}" alt="${skill.name} icon">
                         ${skill.name}
                     </div>`).join('');
                 categoryItem.innerHTML += `<div class="skill-items">${skillItems}</div>`;

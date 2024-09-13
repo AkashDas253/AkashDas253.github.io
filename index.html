@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio CV</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <img id="profile-image" src="" alt="Profile Image">
-        <h1 id="profile-name"></h1>
-        <p id="profile-summary"></p>
-        <p id="profile-links">
-            <a id="profile-linkedin" href="" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
-            <a id="profile-github" href="" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
-            <a id="profile-email" href="mailto:"><i class="fas fa-envelope"></i> Email</a>
-        </p>
+        <div id="profile-section">
+            <img id="profile-image" src="" alt="Profile Image">
+            <div id="profile-info">
+                <h1 id="profile-name"></h1>
+                <p id="profile-summary"></p>
+                <div id="profile-links">
+                    <a id="profile-linkedin" href="" target="_blank"><img src="img/icons/linkedin-logo.png" alt="LinkedIn Icon"> LinkedIn</a>
+                    <a id="profile-github" href="" target="_blank"><img src="img/icons/github-logo.png" alt="GitHub Icon"> GitHub</a>
+                    <a id="profile-email" href="mailto:"><img src="img/icons/email-logo2.png" alt="Email Icon"> Email</a>
+                </div>
+            </div>
+        </div>
     </header>
 
     <section id="education">
@@ -28,19 +31,22 @@
         <h2>Certificates</h2>
         <ul id="certificates-list"></ul>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul id="projects-list"></ul>
-    </section>
+
     <section id="skills">
         <h2>Skills</h2>
         <div id="skills-list"></div>
     </section>
     
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul id="projects-list"></ul>
+    </section>
+
     <section id="hobbies">
         <h2>Hobbies</h2>
         <ul id="hobbies-list"></ul>
     </section>
+    
     <script src="script.js"></script>
 </body>
 </html>
