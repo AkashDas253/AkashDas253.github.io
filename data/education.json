@@ -3,19 +3,19 @@
       "degree": "Bachelor of Technology in Computer Science and Engineering",
       "institution": "St. thomas College of Engineering and Technology",
       "year": "2025",
-      "details": ["CGPA(till 5th Semester): 8.82", "Relevant coursework: Data Structures, Algorithms, Databases, Computer Networks, OOPS "]
+      "details": ["CGPA(till 6th Semester): 8.9", "Relevant coursework: Data Structures, Algorithms, Databases, Computer Networks, OOPS "]
     },
     {
       "degree": "ISC",
       "institution": "Orient Day School",
       "year": "2021",
-      "details": ["Percentage: 92%", "Science Stream","Relevant coursework: Java Core, OOP"]
+      "details": ["Percentage: 89.33%", "Science Stream","Relevant coursework: Java Core, OOP"]
     },
     {
       "degree": "ICSE",
       "institution": "Orient Day School",
       "year": "2019",
-      "details": ["Percentage: 87%","Relevant coursework: Java Core, OOP(Basic)"]
+      "details": ["Percentage: 86.8%","Relevant coursework: Java Core, OOP(Basic)"]
     }
   ]
   
