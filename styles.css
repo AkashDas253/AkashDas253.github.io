@@ -129,7 +129,7 @@ a:hover {
 
 .skill-item {
     display: flex;
-    align-items: center;
+    align-items: left;
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
@@ -162,4 +162,75 @@ a:hover {
     .skill-items {
         justify-content: center;
     }
+}
+
+
+/* Toggle */
+.toggle-input {
+    display: none;
+}
+
+.toggle-input + label {
+    cursor: pointer;
+}
+
+.foldable-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* Style for certificate list items */
+.certificate-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.certificate-item strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.certificate-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.certificate-link:hover {
+    text-decoration: underline;
+}
+
+/* Styling for sub-courses */
+.sub-courses {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 2px solid #007bff;
+    padding-left: 15px;
+    background-color: #e9f7ff;
+    margin-bottom: 10px;
+}
+
+.sub-courses ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sub-courses li {
+    margin-bottom: 10px;
+}
+
+.sub-courses li strong {
+    font-size: 16px;
+}
+
+.sub-courses a {
+    color: #007bff;
+}
+
+.sub-courses a:hover {
+    text-decoration: underline;
 }

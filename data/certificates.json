@@ -2,54 +2,120 @@
   {
     "type": "Specialization",
     "course_name": "Machine Learning Specialization",
-    "platform": "Coursera",
-    "date": "2023-11-11",
-    "link": "https://coursera.org/verify/specialization/4AHEMQNG4AZ6",
+    "platform": "DeepLearning.AI and Coursera",
+    "certificate_link": "https://coursera.org/share/824f355f5470d03e4e088a797bfe4850",
+    "is_specialization": true,
     "topics": [
       "Supervised Learning (Regression and Classification)",
       "Advanced Learning Algorithms",
       "Unsupervised Learning",
       "Recommenders",
       "Reinforcement Learning"
-    ]
-  },  
+    ],
+    "sub_courses": [
+      {
+        "course_name": "Supervised Machine Learning: Regression and Classification",
+        "platform": "DeepLearning.AI & Stanford University",
+        "certificate_link": "https://www.coursera.org/account/accomplishments/certificate/SK6RYVFRC2R8",
+        "topics": ["Supervised Machine Learning", "Regression", "Classification"]
+      },
+      {
+        "course_name": "Advanced Learning Algorithms",
+        "platform": "DeepLearning.AI & Stanford University",
+        "certificate_link": "https://www.coursera.org/account/accomplishments/certificate/2VBUX3FEMDDZ",
+        "topics": ["Advanced Learning Algorithms"]
+      },
+      {
+        "course_name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        "platform": "DeepLearning.AI & Stanford University",
+        "certificate_link": "https://www.coursera.org/account/accomplishments/certificate/9589EKQMHTQN",
+        "topics": ["Unsupervised Learning", "Recommenders", "Reinforcement Learning"]
+      }
+    ]    
+  },
   {
     "type": "Specialization",
-    "course_name": "Object Oriented Programming in Java",
-    "platform": "Coursera",
-    "date": "2023-12-27",
-    "link": "https://coursera.org/verify/specialization/UWSR2ZMQXH4Y",
+    "course_name": "Object Oriented Programming in Java Specialization",
+    "platform": "Coursera and Duke University",
+    "certificate_link": "https://coursera.org/share/f55e4fca4beea08dba373b0770eab02c",
+    "is_specialization": true,
     "topics": [
-      "Java Programming: Solving Problems with Software",
-      "Java Programming: Arrays, Lists, and Structured Data",
-      "Object Oriented Programming in Java",
-      "Data Structures and Performance"
+      "Java Programming",
+      "Computer Programming",
+      "Algorithms"
+    ],
+    "sub_courses": [
+      {
+        "course_name": "Java Programming: Solving Problems with Software",
+        "platform": "Duke University",
+        "certificate_link": "https://coursera.org/share/f55e4fca4beea08dba373b0770eab02c",
+        "topics": ["Software Solutions", "Problem Solving"]
+      },
+      {
+        "course_name": "Java Programming: Arrays, Lists, and Structured Data",
+        "platform": "Duke University",
+        "certificate_link": "https://coursera.org/share/f55e4fca4beea08dba373b0770eab02c",
+        "topics": ["Arrays", "Lists", "Structured Data"]
+      },
+      {
+        "course_name": "Object Oriented Programming in Java",
+        "platform": "University of California San Diego",
+        "certificate_link": "https://coursera.org/share/f55e4fca4beea08dba373b0770eab02c",
+        "topics": ["Object-Oriented Programming", "Java"]
+      },
+      {
+        "course_name": "Data Structures and Performance",
+        "platform": "University of California San Diego",
+        "certificate_link": "https://coursera.org/share/8772807ae48b7e1bd04425f5ab7646c2",
+        "topics": ["Data Structures", "Performance Optimization"]
+      }
     ]
-  },  
+    
+  }, 
   {
-    "type": "Course",
-    "course_name": "Java Programming and Software Engineering Fundamentals",
-    "platform": "Coursera",
-    "date": "2022-11-30",
-    "link": "https://coursera.org/certificate/ABC456",
-    "topics": ["Java", "OOP", "Software Development"]
+    "course_name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+    "platform": "DeepLearning.AI",
+    "certificate_link": "https://coursera.org/share/5e7de544f66a8b088a236ec7243a83fc",
+    "topics": ["Machine Learning", "Reinforcement Learning", "Deep Learning"]
+  },
+  {
+    "course_name": "Introduction to Databases for Back-End Development",
+    "platform": "Meta",
+    "certificate_link": "https://coursera.org/share/1ffbde1883500a3e085ec2553d6f55bc",
+    "topics": ["Databases", "SQL", "Database Design"]
   },
   {
     "type": "Course",
-    "course_name": "Introduction to Back-End Development",
-    "platform": "Coursera",
-    "date": "2023-08-19",
-    "link": "https://coursera.org/verify/69S9ADE26QBL",
+    "course_name": "Python and Django Full Stack Web Developer Bootcamp",
+    "platform": "Udemy",
+    "start_date": "2023-09-01",
+    "end_date": "2023-12-01",
+    "certificate_link": "https://www.udemy.com/certificate/UC-ce5b7570-1059-4521-9497-34d3b5ca0a2e/",
+    "is_specialization": false,
     "topics": [
-      "Back-End Development"
+      "Django",
+      "Python",
+      "HTML",
+      "CSS",
+      "JavaScript"
     ]
-  },  
+  },
+  {
+    "course_name": "Version Control",
+    "platform": "Meta",
+    "certificate_link": "https://coursera.org/share/04eba5e8b6e16c7e2480036a3da08dde",
+    "topics": ["Software Engineering", "Web Development", "Collaboration"]
+  },
   {
     "type": "Course",
-    "course_name": "A Life of Happiness and Fulfillment",
-    "platform": "Coursera",
-    "date": "2022-05-04",
-    "link": "https://coursera.org/verify/GBLDAFMUBZKU",
-    "topics": ["Happiness", "Fulfillment"]
+    "course_name": "Introduction to Programming in C",
+    "platform": "NPTEL",
+    "certificate_link": "https://drive.google.com/file/d/14xXeTJNvRjTP1GVerF4EzMDktoyWg2qf/view?pli=1",
+    "is_specialization": false,
+    "topics": [
+      "C Programming",
+      "Basics of Programming",
+      "NPTEL"
+    ]
   }
 ]

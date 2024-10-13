@@ -1,32 +1,37 @@
-[
+{
+  "projects": [
+
     {
-      "name": "ToDo App on Github",
-      "description": "A web-based ToDo application to manage tasks that stores its data in Github using Octokit and allows authentication",
-      "github_link": "https://github.com/AkashDas253/Todo_Github.git",
-      "live_link": "https://akashdas253.github.io/Todo_Github/"
+      "name": "SociallySecure",
+      "description": "Developed SociallySecure, a full-stack web application using OCR to detect sensitive data in images, preventing accidental uploads to social media. Currently enhancing it with machine learning classification. The app features encryption for secure credential storage and robust user authentication, ensuring data privacy.",
+      "technologies": ["Django", "Django REST Framework", "HTML", "CSS", "JavaScript", "GitHub", "Git", "Python"],
+      "repository": "https://github.com/AkashDas253/SociallySecure"
     },
     {
-      "name": "TalktoLearn",
-      "description": "A chatbot for learning new topics",
-      "github_link": "https://github.com/AkashDas253/TalktoLearn.git",
-      "live_link": "http://toosaddas.pythonanywhere.com/"
+      "name": "GitListify",
+      "description": "Developed GitListify, a ToDo management app that utilizes the Octokit library for seamless CRUD operations on task lists stored in GitHub. The app features secure multi-device login through a unique GitHub access token, eliminating the need for users to enter their full token on each device.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Octokit", "GitHub", "Git"],
+      "repository": "https://github.com/AkashDas253/GitListify",
+      "liveLink": "https://akashdas253.github.io/GitListify/"
     },
     {
-      "name": "Noise Removal from Image",
-      "description": "This repository contains implementations of various image processing papers. Each implementation includes a PDF of the paper and a C program that implements the paper's methods.",
-      "github_link": "https://github.com/AkashDas253/Paper_Implementation.git"
+      "name": "Amazon ML Challenge",
+      "description": "Collaborated in a team to analyze over 260,000 images, determining dimensions (width, area, volume) based on given product categories. Enhanced machine learning skills and teamwork in a competitive environment.",
+      "technologies": ["Machine Learning", "Python", "Data Analysis", "Team Collaboration"]
     },
     {
-      "name": "Weather App",
-      "description": "A web-based weather application that allows users to search for current weather conditions and hourly forecasts by city name. The app utilizes the Open Meteo API for weather data and the OpenStreetMap Nominatim API for geocoding. It features a clean interface with input fields for city names, and displays weather details including temperature, wind speed, and hourly forecasts. The application handles errors gracefully and updates the interface to show relevant information based on user queries.",
-      "github_link": "https://github.com/AkashDas253/weather-app.git",
-      "live_link": "https://akashdas253.github.io/WeatherApp/"
+      "name": "TicTacToe",
+      "description": "Developed a web-based Tic-Tac-Toe game that supports both 3x3 and 5x5 grids. The game offers two modes: Human vs. Human and Human vs. AI. Implemented an AI opponent for the 3x3 board using the Minimax algorithm for optimal gameplay. For the 5x5 grid, a random AI bot was used to diversify gameplay.",
+      "technologies": ["HTML", "CSS", "JavaScript", "GitHub", "Git"],
+      "repository": "https://github.com/AkashDas253/TicTacToe",
+      "liveLink": "https://akashdas253.github.io/TicTacToe/"
     },
     {
-      "name": "Tic-Tac-Toe Game with AI Bots",
-      "description": "This web-based Tic-Tac-Toe game features various AI bots, including an Easy Bot, Minimax Bot, and Alpha-Beta Bot. The game allows for dynamic board sizes and different game modes, enabling players to compete against either a human opponent or one of the bots. The Minimax tree used by the bots is precomputed and stored in a JSON file, ensuring efficient and optimal move decisions. The project includes a user-friendly interface for selecting bots, setting game configurations, and playing the game.",
-      "github_link": "https://github.com/AkashDas253/tictactoe.git",
-      "live_link": "https://akashdas253.github.io/TicTacToe/"
+      "name": "Portfolio Website",
+      "description": "Developed a responsive portfolio website to showcase projects, skills, and contact information. The website features a clean, minimalist design with smooth scrolling and a dark mode toggle.",
+      "technologies": ["HTML", "CSS", "JavaScript", "GitHub", "Git"],
+      "repository": "https://github.com/AkashDas253/AkashDas253.github.io",
+      "liveLink": "https://akashdas253.github.io/"
     }
-    
   ]
+}

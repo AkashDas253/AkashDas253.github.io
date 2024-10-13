@@ -4,8 +4,9 @@
     "skills": [
       { "name": "Python", "icon": "python-logo.png" },
       { "name": "Java", "icon": "java-logo.png" },
-      { "name": "SQL", "icon": "sql-logo.png" },
-      { "name": "C", "icon": "c-logo.png" }
+      { "name": "SQL and PL/SQL", "icon": "sql-logo.png" },
+      { "name": "C", "icon": "c-logo.png" },
+      { "name": "JavaScript", "icon": "javascript-logo.png" }
     ]
   },
   {
@@ -13,8 +14,19 @@
     "skills": [
       { "name": "HTML", "icon": "html-logo.png" },
       { "name": "CSS", "icon": "css-logo.png" },
-      { "name": "JavaScript", "icon": "js-logo.png" },
-      { "name": "Django", "icon": "django-logo1.png" }
+      { "name": "JavaScript", "icon": "javascript-logo.png" },
+      { "name": "Django", "icon": "django-logo1.png" },
+      { "name": "Django REST Framework", "icon": "django rest framework-logo.png" }
+    ]
+  },
+  {
+    "category": "Machine Learning",
+    "skills": [
+      { "name": "Numpy", "icon": "numpy-logo.png" },
+      { "name": "Pandas", "icon": "pandas-logo.png" },
+      { "name": "Keras", "icon": "keras-logo.png" },
+      { "name": "Scikit-Learn", "icon": "scikit-learn-logo.png" },
+      { "name": "Tensorflow", "icon": "tensorflow-logo.png" }
     ]
   },
   {
